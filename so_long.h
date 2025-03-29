@@ -110,15 +110,15 @@ void	load_imgs2(t_game *game);
 void	check_img(void	*img, t_game *game);
 
 //		FILLING THE MAP
-void	fill_bg(t_game *g_mlx);
+void	fill_bg(t_game *game);
 void	fill_map(t_game *game);
 void	fill_corners(t_game *game);
 void	fill_sides(t_game *game, int i, int j);
-void	fill_wall(t_game *g_mlx, int i, int j);
-void	fill_space(t_game *g_mlx, int i, int j);
-void	fill_col(t_game *g_mlx, int i, int j);
-void	fill_player(t_game *g_mlx, int i, int j);
-void	fill_exit(t_game *g_mlx, int i, int j);
+void	fill_wall(t_game *game, int i, int j);
+void	fill_space(t_game *game, int i, int j);
+void	fill_col(t_game *game, int i, int j);
+void	fill_player(t_game *game, int i, int j);
+void	fill_exit(t_game *game, int i, int j);
 
 //		KEYBOARD INPUT
 int		keys(int keycode, t_game *game);
